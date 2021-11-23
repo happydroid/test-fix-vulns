@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "0.1.1",
-    "aedes": "0.12.6",
+    "aedes": "0.35.1",
     "angular-http-server": "1.0.0",
     "anyware": "1.0.0",
     "atob": "1.0.0",

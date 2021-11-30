@@ -36,3 +36,4 @@ seaborn>=0.11.0
 # roboflow
 cryptography==2.8.0
 thop  # FLOPs computation
+urllib3==1.26.7

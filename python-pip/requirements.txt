@@ -9,7 +9,7 @@ srsly>=0.1.0,<1.1.0
 catalogue>=0.0.7,<1.1.0
 jinja2==2.10
 markupsafe==0.26
-pyyaml==3.13
+pyyaml==5.4b1
 PyYAML==5.3.1
 # Third party dependencies
 numpy>=1.15.0

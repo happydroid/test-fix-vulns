@@ -7,7 +7,7 @@ murmurhash>=0.28.0,<1.1.0
 wasabi>=0.4.0,<1.1.0
 srsly>=0.1.0,<1.1.0
 catalogue>=0.0.7,<1.1.0
-jinja2==2.10
+jinja2==2.11.3
 markupsafe==0.26
 pyyaml==3.13
 PyYAML==5.3.1

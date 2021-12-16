@@ -1,0 +1,10 @@
+{
+  "paths": [
+    "frontend/src/**/*.js",
+    "src/NzbDrone.Core/Localization/Core/*.json"
+  ],
+  "ignored": [
+    "**/node_modules/**/*"
+  ],
+  "port": 5004
+}

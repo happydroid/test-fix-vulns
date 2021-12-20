@@ -1,73 +1,40 @@
-name: Bug Report
-description: 'Report a new bug, if you are not 100% certain this is a bug please go to our Reddit or Discord first'
-labels: ['Type: Bug', 'Status: Needs Triage']
+name: "\U0001F41B Bug Report"
+description: "Report a reproducible bug in FluentValidation. Also use this template if you're having trouble upgrading from version 9.x 
+to 10.x"
 body:
-- type: checkboxes
+- type: markdown
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
-      required: true
+    value: | 
+      Thanks for taking the time to file a bug report! Before filling out a new issue, please first check to see if your question has been answered in an existing issue, or in the project documentation at [https://docs.fluentvalidation.net](https://docs.fluentvalidation.net)
+      
+      **Please note** FluentValidation is supported for free on a voluntary basis. If you use FluentValidation please [sponsor the project](https://github.com/sponsors/JeremySkinner) so that its development can continue. Bug reports from sponsors will be prioritised.
+      
+      Please take the time to fill in this form as completely as possible. If you leave out sections there is a high likelihood your issue will be closed.
+- type: input
+  attributes:
+    label: FluentValidation version
+    description: Which version of FluentValidation are you using? Please note that only FluentValidation versions 9.x and 10.x are supported. Issues related to older versions will be closed. 
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: ASP.NET version
+    description: If you are using FluentValidation with ASP.NET, please provide the version of ASP.NET that you're using (eg .NET Core 3.1, .NET 5 etc). Leave this blank if you're not using ASP.NET.
 - type: textarea
   attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
+    label: Summary
+    description: A clear and concise description of the issue that you're having.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
+    label: Steps to Reproduce
+    description: "Please include all the steps necessary to reproduce the issue, including any sample code (preferably in the form of a runnable unit test). Alternatively, please provide a link to a *minimal* sample project. Please do not include screenshots of code."  
   validations:
     required: true
-- type: textarea
+- type: markdown
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
-      4. See error...
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Radarr**: Radarr 3.0.1.4259
-        - **Docker Install**: Yes
-        - **Using Reverse Proxy**: No
-        - **Browser**: Firefox 90 (If UI related)
     value: |
-        - OS: 
-        - Radarr:
-        - Docker Install:
-        - Using Reverse Proxy:
-        - Browser:
-    render: markdown
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: What branch are you running?
-    options:
-      - Master
-      - Develop
-      - Nightly
-      - Other (This issue will be closed)
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Trace Logs?
-    description: |
-      Trace Logs (https://wiki.servarr.com/radarr/troubleshooting#logging-and-log-files) 
-      ***Generally speaking, all bug reports must have trace logs provided.***
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
-      Additionally, any additional info? Screenshots? References? Anything that will give us more context about the issue you are encountering!
-  validations:
-    required: true
+      Please ensure that any code samples are readable and [properly formatted as code blocks](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks).
+      
+      **Please realise that it is up to you to debug your code thoroughly. Be as certain as possible that the bug is with FluentValidation, and not with your own code, prior to opening an issue.**

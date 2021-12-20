@@ -1,7 +1,6 @@
-name: 'Lock threads'
+name: 'Lock closed issues'
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
@@ -12,10 +11,5 @@ jobs:
       - uses: dessant/lock-threads@v2
         with:
           github-token: ${{ github.token }}
-          issue-lock-inactive-days: '90'
-          issue-exclude-created-before: ''
-          issue-exclude-labels: ''
-          issue-lock-labels: ''
-          issue-lock-comment: ''
-          issue-lock-reason: 'resolved'
-          process-only: ''
+          process-only: 'issues'
+          issue-lock-inactive-days: '14'

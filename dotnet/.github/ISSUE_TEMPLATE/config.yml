@@ -1,8 +1,5 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Support via Discord
-    url: https://radarr.video/discord
-    about: Chat with users and devs on support and setup related topics.
-  - name: Support via Reddit
-    url: https://reddit.com/r/radarr
-    about: Discuss and search thru support topics.
+contact_links: 
+  - name: General Support and Usage questions
+    url: "https://github.com/FluentValidation/FluentValidation/blob/main/.github/CONTRIBUTING.md"
+    about: We are unable to provide general support for usage of the library

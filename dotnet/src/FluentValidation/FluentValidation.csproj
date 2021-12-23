@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
     <Description>A validation library for .NET that uses a fluent interface to construct strongly-typed validation rules.</Description>
@@ -19,7 +19,7 @@ Full release notes can be found at https://github.com/FluentValidation/FluentVal
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs" Link="CommonAssemblyInfo.cs" />
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <!-- <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
@@ -43,7 +43,7 @@ Full release notes can be found at https://github.com/FluentValidation/FluentVal
     <!-- <PackageReference Include="DotNetZip" Version="1.11.0" /> -->
     <PackageReference Include="Bootstrap.Less" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.0.2" />
-    <PackageReference Include="MessagePack.ImmutableCollection" Version="0.6.0" />
+    <PackageReference Include="MessagePack.ImmutableCollection" Version="2.0.107-alpha" />
     <PackageReference Include="Bootstrap.Less" Version="2.1.1" />
     <!-- <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.10" /> -->
     <!-- <PackageReference Include="Microsoft.Identitymodel.Clients.Activedirectory" Version="2.0.2" /> -->

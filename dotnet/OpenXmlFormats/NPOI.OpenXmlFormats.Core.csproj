@@ -23,5 +23,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Bootstrap.Less" Version="2.1.1" PrivateAssets="All" />
+    <PackageReference Include="FastReport.OpenSource" Version="2020.4.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>

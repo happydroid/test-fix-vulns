@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.0" />
+    <PackageReference Include="MetadataExtractor" Version="2.2.0" />
+    <PackageReference Include="MessagePack.UnityShims" Version="0.6.0" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(OS)' == 'Windows_NT' ">

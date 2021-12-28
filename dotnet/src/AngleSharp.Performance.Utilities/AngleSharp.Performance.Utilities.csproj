@@ -4,10 +4,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MetadataExtractor" Version="2.2.0" />
     <PackageReference Include="MessagePack.UnityShims" Version="0.6.0" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <ProjectReference Include="..\AngleSharp.Performance.Common\AngleSharp.Performance.Common.csproj" />
   </ItemGroup>

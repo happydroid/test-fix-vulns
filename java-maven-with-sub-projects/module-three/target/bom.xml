@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.1" xmlns:dg="http://cyclonedx.org/schema/ext/dependency-graph/1.0" serialNumber="urn:uuid:7d023904-958d-4c67-affd-5c3619ac0f81" version="1">
+    <components>
+        <component bom-ref="pkg:maven/commons-collections/commons-collections@3.2?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>commons-collections</group>
+            <name>commons-collections</name>
+            <version>3.2</version>
+            <description>Types that extend and augment the Java Collections Framework.</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">7b9216b608d550787bdf43a63d88bf3b</hash>
+                <hash alg="SHA-1">f951934aa5ae5a88d7e6dfaa6d32307d834a88be</hash>
+                <hash alg="SHA-256">093fea360752de55afcb80cf713403eb1a66cb7dc0d529955b6f4a96f975df5c</hash>
+                <hash alg="SHA-384">c49bf0ba8c22252c1a7ebecbd6088690db1f3677bc6331ddb3bb8d9b5f53545ea09963c154423d474f1a8c438e130801</hash>
+                <hash alg="SHA-512">4c3361c8cf553c6fc34fe10624985bc1a08ea84547f4fb970487e99dc795a67b4bd36a0a1015492019e36dc1ae8b36def98f3ed3bf3e8382057923ddf67ee5ef</hash>
+            </hashes>
+            <purl>pkg:maven/commons-collections/commons-collections@3.2?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://jakarta.apache.org</url>
+                </reference>
+                <reference type="distribution">
+                    <url>file:///www/jakarta.apache.org/builds/jakarta-commons/collections/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/bugzilla/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/eyebrowse/SummarizeList?listName=commons-dev@jakarta.apache.org</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/repos/asf/jakarta/commons/proper/collections/trunk</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework.security/spring-security-core@2.0.3?type=jar" type="library">
+            <publisher>SpringSource, Inc</publisher>
+            <group>org.springframework.security</group>
+            <name>spring-security-core</name>
+            <version>2.0.3</version>
+            <description>Spring Security</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">1c658c4e6b6044cfe6abb65161ed8732</hash>
+                <hash alg="SHA-1">314d780d9d43521bcccbe3afb83c0b52555fcbb2</hash>
+                <hash alg="SHA-256">1c76d00609ffabb9d13a17e1c2fb4615eeb098109c5eef442ab7b944ad127806</hash>
+                <hash alg="SHA-384">3dfe1e8b59112231d2fa14d8be28277ff22a31aed210d66d8b7511566f2300faad1f8ec6652882c363fed95aa94a07d8</hash>
+                <hash alg="SHA-512">a3cc4d29d1be9269b946855a395f29ed349636e4db5fb29fcfa66495166a128799a154c5edbe48a26004f7be2275ec0c5b0b6a41066a2cf6ffb001468044ce45</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework.security/spring-security-core@2.0.3?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.springsource.com/</url>
+                </reference>
+                <reference type="build-system">
+                    <url>https://build.springframework.org/browse/SEC</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://jira.springframework.org/browse/SEC</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://sourceforge.net/mailarchive/forum.php?forum_id=40659</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://acegisecurity.svn.sourceforge.net/viewcvs.cgi/acegisecurity/spring-security/tags/spring-security-parent-2.0.3</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-context@2.0.8?type=jar" type="library">
+            <publisher>Spring Framework</publisher>
+            <group>org.springframework</group>
+            <name>spring-context</name>
+            <version>2.0.8</version>
+            <description>Spring Framework: Context</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">57fe093821cad6b7c2759c6764d1e0a8</hash>
+                <hash alg="SHA-1">2a970102ddebbd40b9dbc5e3abea3131110486d8</hash>
+                <hash alg="SHA-256">e35936728242b77a0f7185bb60f1791a88c385cee23a36eafbcc49fb314f97d0</hash>
+                <hash alg="SHA-384">0ef0be26830cb37c787d58e686a9ddb14b6b3d35c3e0c73743fbf4585165ae2fa8de0e4550952aa7894e7ea2688a8d20</hash>
+                <hash alg="SHA-512">fc4b52cb7d1ac37c6a6303b19d0d660a278f51911df57c72722b85aa74823d24c398f1e144940f188d5e90f31667b129fc4035941ba3bf10f3535209fbf5fad8</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-context@2.0.8?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.springframework.org/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://springframework.cvs.sourceforge.net/springframework/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar" type="library">
+            <group>aopalliance</group>
+            <name>aopalliance</name>
+            <version>1.0</version>
+            <description>AOP Alliance</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">04177054e180d09e3998808efa0401c7</hash>
+                <hash alg="SHA-1">0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8</hash>
+                <hash alg="SHA-256">0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08</hash>
+                <hash alg="SHA-384">4dddf44338b5aff9580da2532b81c0ac3e1d09e1f28c6db871a55cad442b705dd7791eb07f9d4577d49d0be3673ba783</hash>
+                <hash alg="SHA-512">3f44a932d8c00cfeee2eb057bcd7c301a2d029063e0a916e1e20b3aec4877d19d67a2fd8aaf58fa2d5a00133d1602128a7f50912ffb6cabc7b0fdc7fbda3f8a1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Public Domain</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/aopalliance/aopalliance@1.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-beans@2.0.8?type=jar" type="library">
+            <publisher>Spring Framework</publisher>
+            <group>org.springframework</group>
+            <name>spring-beans</name>
+            <version>2.0.8</version>
+            <description>Spring Framework: Beans</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">f923786d90d2c0aa4560eea7fa00fc56</hash>
+                <hash alg="SHA-1">bb8c708326c5e75ba8e1460dd578273670bdce1a</hash>
+                <hash alg="SHA-256">9cfbacf832b7e10676a54d9b5b72fa972ca8a644745b1079b9a1564155854f45</hash>
+                <hash alg="SHA-384">5a2d1d69dd3618ecf97830a0cfd6ef34659ca8ac768b1dcd8524a86d1c73f75e5fee0bb6b5e83bb640a4ffc9ad3a5352</hash>
+                <hash alg="SHA-512">31e602ef1301aa67f6f8693fad718af9736927c9f532ecb114bc85527c07406072e02e9d17b2b366b49953b07fb4aa9f71b20fa98a7aa47eabb2ebd9cb01c719</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-beans@2.0.8?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.springframework.org/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://springframework.cvs.sourceforge.net/springframework/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-aop@2.0.8?type=jar" type="library">
+            <publisher>Spring Framework</publisher>
+            <group>org.springframework</group>
+            <name>spring-aop</name>
+            <version>2.0.8</version>
+            <description>Spring Framework: AOP</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">b58daf686d036ff77cd18bfad2a579c7</hash>
+                <hash alg="SHA-1">024239e9884e5ca3ba6015edeceb1849c827a31f</hash>
+                <hash alg="SHA-256">8380267ca510d417f6a77bdeb2098313d8b4bc1b69f97dec448f44dd63a81b5c</hash>
+                <hash alg="SHA-384">57aeccf103252d84d8ad1630c40a3a5b7f799a7219d979877708ffc36fa8e58f1d9fb0605960b44a5000071fb99c4373</hash>
+                <hash alg="SHA-512">5a5da2a2f394209be6133621f26c59ea01212d37d593ceebced7b93c54b1c43a214c000968b5c02e60144e68918e8597356ee79a339a50f3cddd7d8a7b080d46</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-aop@2.0.8?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.springframework.org/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://springframework.cvs.sourceforge.net/springframework/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-support@2.0.8?type=jar" type="library">
+            <publisher>Spring Framework</publisher>
+            <group>org.springframework</group>
+            <name>spring-support</name>
+            <version>2.0.8</version>
+            <description>Spring Framework: Support</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">662d9abd173eddbcfa3a3935fa267e37</hash>
+                <hash alg="SHA-1">1516ff4609cc576376840817622b61c52945f551</hash>
+                <hash alg="SHA-256">df98e87e5c30a5536da6369cadc0a3eff7294a8c234d9d01697080186e447e51</hash>
+                <hash alg="SHA-384">612b268d999eb21a59c17d52e368bf93f71f300d6685298b9875fea7644dd243eb6fbc613f5c1a565c63c7a37d07b0cc</hash>
+                <hash alg="SHA-512">6ac090ad5e9f9653d05c6f32953984d9286d4737e4ea9ea678a5ae08ff8b167f93a7b9527f9a6aa2a7633eee3af27b3f06850b8bed4629e89dffb8bd29ae2daa</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-support@2.0.8?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://www.springframework.org/</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://springframework.cvs.sourceforge.net/springframework/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/commons-logging/commons-logging@1.1.1?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>commons-logging</group>
+            <name>commons-logging</name>
+            <version>1.1.1</version>
+            <description>Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">ed448347fc0104034aa14c8189bf37de</hash>
+                <hash alg="SHA-1">5043bfebc3db072ed80fbd362e7caf00e885d8ae</hash>
+                <hash alg="SHA-256">ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f</hash>
+                <hash alg="SHA-384">264a511a601a07558911ccc5f49ef579aa1b1760bb4091bcbe1a0017c7be64d86f1d0b28ef560819614b252907cdd44a</hash>
+                <hash alg="SHA-512">470323a2ee38be1b7ff8c84f1f5a5f8c4ec2ceb6b0649faa7b961f111865877dbe125409f72b1c52c7f18aa89e3469635c49ff4b83f86cc2f2eb2cc5562f9bff</hash>
+            </hashes>
+            <purl>pkg:maven/commons-logging/commons-logging@1.1.1?type=jar</purl>
+            <externalReferences>
+                <reference type="issue-tracker">
+                    <url>http://issues.apache.org/jira/browse/LOGGING</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1</url>
+                </reference>
+                <reference type="build-system">
+                    <url>http://vmbuild.apache.org/continuum/</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://mail-archives.apache.org/mod_mbox/commons-commits/</url>
+                </reference>
+                <reference type="website">
+                    <url>http://www.apache.org/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/commons-codec/commons-codec@1.3?type=jar" type="library">
+            <publisher>The Apache Software Foundation</publisher>
+            <group>commons-codec</group>
+            <name>commons-codec</name>
+            <version>1.3</version>
+            <description>The codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">8e149c1053741c03736a52df83974dcc</hash>
+                <hash alg="SHA-1">fd32786786e2adb664d5ecc965da47629dca14ba</hash>
+                <hash alg="SHA-256">1bafd2ece2e88db4cdf835a7f8f0de65fab5b1147977a5dcc59b7c1b8c6f5080</hash>
+                <hash alg="SHA-384">c3d189986c881351eb8ace4f92d8a3889c20d1310c95605696227d29c4932c19d9e47dbe017a5fa6351a0753ec7306f5</hash>
+                <hash alg="SHA-512">acea0a510bb701c7bae3cb41b5c61a93e72b99c8441e5081269856df906fcc6de1977984f229eb78d0dc1601492a36d9992611c1ff5b8ed3f7b96294d67ecc29</hash>
+            </hashes>
+            <purl>pkg:maven/commons-codec/commons-codec@1.3?type=jar</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://jakarta.apache.org</url>
+                </reference>
+                <reference type="distribution">
+                    <url>file:///www/jakarta.apache.org/builds/jakarta-commons/codec/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>http://nagoya.apache.org/bugzilla/buglist.cgi?bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;product=Commons&amp;component=Codec&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;bug_file_loc=&amp;bug_file_loc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;cmdtype=doit&amp;newqueryname=&amp;order=Reuse+same+sort+as+last+time</url>
+                </reference>
+                <reference type="mailing-list">
+                    <url>http://nagoya.apache.org/eyebrowse/SummarizeList?listName=commons-dev@jakarta.apache.org</url>
+                </reference>
+                <reference type="vcs">
+                    <url>http://cvs.apache.org/viewcvs/jakarta-commons/codec/</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-core@3.0.7.RELEASE?type=jar" type="library">
+            <group>org.springframework</group>
+            <name>spring-core</name>
+            <version>3.0.7.RELEASE</version>
+            <description>Spring Framework Parent</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">feeca5dd71af07bda262b0ed14dc1951</hash>
+                <hash alg="SHA-1">2c90825834a037aab6f6a71bbd05d81680832c49</hash>
+                <hash alg="SHA-256">9c58303d3031da9fb220afe99d4bb28df24f938995dd06513d13abf35534c4c7</hash>
+                <hash alg="SHA-384">2a4e20d2b92d4c02c7946b89d3ffc1984635d1e5e542542a9e220904d2b936bc023fcfe26b484a9ee5b1b95e46007db6</hash>
+                <hash alg="SHA-512">a4b260708105342179a5317f7eaf710fc99800c0cb65ddf3964196f224bfd6445ac9265a35b4045d30cac74aa3dd3de141b871bcc4ac56e8f1cc4e33a37769a9</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-core@3.0.7.RELEASE?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>https://fisheye.springframework.org/browse/spring-framework</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.springframework/spring-asm@3.0.7.RELEASE?type=jar" type="library">
+            <group>org.springframework</group>
+            <name>spring-asm</name>
+            <version>3.0.7.RELEASE</version>
+            <description>Spring Framework Parent</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">5d479c7bf32d4bb3cb3b81dfdf3080f7</hash>
+                <hash alg="SHA-1">cadd0ed7b1aeea0c2858ada0d6397e8423aad6a3</hash>
+                <hash alg="SHA-256">ccac728049d1e71e8560fdc2354791c0d7b80e490a8115bfa99d19668de7f4f3</hash>
+                <hash alg="SHA-384">985910bfda85fb81de0c1fc2a37e9fc3b667d4695057ced8679108f8975e546fd06663270948a844b2d6be8fe3e00cd3</hash>
+                <hash alg="SHA-512">fa4a74b4737f38642a55c8142cc5653faa599e46cbc3a8f03a860b4fef07320daf8bca7a259567ed5898e182170728faa539cbac4d2b441b66ba0d3d7332f5d7</hash>
+            </hashes>
+            <purl>pkg:maven/org.springframework/spring-asm@3.0.7.RELEASE?type=jar</purl>
+            <externalReferences>
+                <reference type="vcs">
+                    <url>https://fisheye.springframework.org/browse/spring-framework</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component bom-ref="pkg:maven/org.bouncycastle/bcprov-jdk15on@1.55?type=jar" type="library">
+            <group>org.bouncycastle</group>
+            <name>bcprov-jdk15on</name>
+            <version>1.55</version>
+            <description>The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.5 to JDK 1.8.</description>
+            <scope>required</scope>
+            <hashes>
+                <hash alg="MD5">cbf56e979aba0e551a57953080e115f0</hash>
+                <hash alg="SHA-1">935f2e57a00ec2c489cbd2ad830d4a399708f979</hash>
+                <hash alg="SHA-256">c08450a176b55c7ef4847111550eb247e5912ad450c8c225fa2f7cab74ce608b</hash>
+                <hash alg="SHA-384">fe7fd49456bfea10780dc52ab3802f8d35ffeef52647700e2c58ad6f803197c09d976bc3d9c9e49ce0ab1f3311a00fc9</hash>
+                <hash alg="SHA-512">7b66813a9d1e0ca5c4c1992eb4b453c105ace2bd08615d5d7c36faf80371fa93c583f6a751dbdcfcb6861ec05e7128d556354a097b031a5e8e876f417256f641</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <name>Bouncy Castle Licence</name>
+                    <url>http://www.bouncycastle.org/licence.html</url>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.bouncycastle/bcprov-jdk15on@1.55?type=jar</purl>
+            <externalReferences>
+                <reference type="issue-tracker">
+                    <url>http://www.bouncycastle.org/jira/secure/Dashboard.jspa</url>
+                </reference>
+                <reference type="vcs">
+                    <url>https://github.com/bcgit/bc-java</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+    <dg:dependencies>
+        <dg:dependency ref="pkg:maven/commons-collections/commons-collections@3.2?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.springframework.security/spring-security-core@2.0.3?type=jar">
+            <dg:dependency ref="pkg:maven/org.springframework/spring-context@2.0.8?type=jar"/>
+            <dg:dependency ref="pkg:maven/org.springframework/spring-aop@2.0.8?type=jar"/>
+            <dg:dependency ref="pkg:maven/org.springframework/spring-support@2.0.8?type=jar"/>
+            <dg:dependency ref="pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"/>
+            <dg:dependency ref="pkg:maven/commons-codec/commons-codec@1.3?type=jar"/>
+        </dg:dependency>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-context@2.0.8?type=jar">
+            <dg:dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar"/>
+            <dg:dependency ref="pkg:maven/org.springframework/spring-beans@2.0.8?type=jar"/>
+        </dg:dependency>
+        <dg:dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-beans@2.0.8?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-aop@2.0.8?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-support@2.0.8?type=jar"/>
+        <dg:dependency ref="pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"/>
+        <dg:dependency ref="pkg:maven/commons-codec/commons-codec@1.3?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-core@3.0.7.RELEASE?type=jar">
+            <dg:dependency ref="pkg:maven/org.springframework/spring-asm@3.0.7.RELEASE?type=jar"/>
+        </dg:dependency>
+        <dg:dependency ref="pkg:maven/org.springframework/spring-asm@3.0.7.RELEASE?type=jar"/>
+        <dg:dependency ref="pkg:maven/org.bouncycastle/bcprov-jdk15on@1.55?type=jar"/>
+    </dg:dependencies>
+</bom>

@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:160621bf-4281-4beb-81f3-1caf008cb7cd" version="1">
+    <metadata>
+        <timestamp>2022-01-22T19:41:54.165Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>Node.js module</name>
+                <version>3.3.1</version>
+            </tool>
+        </tools>
+        <component type="library" bom-ref="pkg:npm/d3@7.3.0">
+            <name>d3</name>
+            <version>7.3.0</version>
+            <description>
+                <![CDATA[Data-Driven Documents]]>
+            </description>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3@7.3.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </metadata>
+    <components>
+        <component type="library" bom-ref="pkg:npm/d3-array@3.1.1">
+            <name>d3-array</name>
+            <version>3.1.1</version>
+            <description>
+                <![CDATA[Array manipulation, ordering, searching, summarizing, etc.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">df7a90f99a199658b5f48162431e101297f608111ac8c4738658ac247482b1251b0d7bfa662b21a92d71eee1550a5286e16afbad9547bda02db682e8c3a1aa75</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-array@3.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-array/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-array/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-array.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/internmap@2.0.3">
+            <name>internmap</name>
+            <version>2.0.3</version>
+            <description>
+                <![CDATA[Map and Set with automatic key interning]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e4787b635c106ef639a281a03db0da2f98982c03f331352b8ccba5b241cb1fac27bff03ed6ae6b8046a2baa12307ea3119721566cd4517e47f28f37765241862</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/internmap@2.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mbostock/internmap/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mbostock/internmap/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mbostock/internmap.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-axis@3.0.0">
+            <name>d3-axis</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Displays automatic reference lines for scales.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">207e6d8235788c4fc68479115741e25583c3b6f7e31d09507c91ecd2eb2aeccdf45dc481bcea2da661f522091c5ec3bfe60110643e3707ffdf73b4914f94bec7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-axis@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-axis/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-axis/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-axis.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-brush@3.0.0">
+            <name>d3-brush</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Select a one- or two-dimensional region using the mouse or touch.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">00b9e35a5558917b1520694eb2e587d7edee764605238f0b8e285f9e1f0564f176412f68f8fcc62c1b253b43e3cd5a072d9d8a09580033c3559173c907668d9d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-brush@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-brush/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-brush/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-brush.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-dispatch@3.0.1">
+            <name>d3-dispatch</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Register named callbacks and call them with arguments.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">af35323d4fd2eebc147e53322dcd444c37818f4351b8728a01cbee928cf086c86bea0e9ce5df338787368108d8d9b6747577862d67353c5d7be0fdad56f2a17e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-dispatch@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-dispatch/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-dispatch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-dispatch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-drag@3.0.0">
+            <name>d3-drag</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Drag and drop SVG, HTML or Canvas using mouse or touch input.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">a566d424b7444d503c95034979c331a177c7eb1fa63b6510a3cad2999f90ab171bc80de17dea6b160213fff1d6da79470a159e2083304b616afa010046485392</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-drag@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-drag/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-drag/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-drag.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-selection@3.0.0">
+            <name>d3-selection</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Data-driven DOM manipulation: select elements and join them to data.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">7e64d159b34c9ac996abac4957c0f5f54fe0c3f6f0ac77cd5f1ac837e1df6609f3a931e9f633a628c86c4d48d73899d939d658f50dbccb8c9e6cacea0ca97195</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-selection@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-selection/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-selection/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-selection.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-interpolate@3.0.1">
+            <name>d3-interpolate</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Interpolate numbers, colors, strings, arrays, objects, whatever!]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ddb62cd6b383df7ba8f1aa897ca3f72563c089b830f199b6f8bf6f04a107276460faf89347ba39326bf999972278df854586803965f94890135fa9353d6cfbda</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-interpolate@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-interpolate/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-interpolate/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-interpolate.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-color@3.0.1">
+            <name>d3-color</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ebf4a51e40ce04bc90489d63d4686cf36388517a4a5a5474842b30d17acb49086e50fb824a62d0d503c7f7cbe99d0c4c510336fe07c0914116b2ea55a5df491b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-color@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-color/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-color/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-color.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-transition@3.0.1">
+            <name>d3-transition</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Animated transitions for D3 selections.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0292af7e3b1247ab60d3ac6b2f8df80b45b274bafb25ec0107757eff7f51307b1a5d3386d339adfce0177a78393392c19b4a239b126ba68990559d5a3ef04be3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-transition@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-transition/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-transition/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-transition.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-ease@3.0.1">
+            <name>d3-ease</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Easing functions for smooth animation.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c11fd72b70f75dc2c8670a5bbd0c10e5f2bef1891db358a9ec0d93c5ed32c6771749dab52fdb24706edb95c79d90e5fe65c83118098b5f516b4466c00f0ce2d3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-3-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-ease@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-ease/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-ease/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-ease.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-timer@3.0.1">
+            <name>d3-timer</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[An efficient queue capable of managing thousands of concurrent animations.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9dd7c9fc9c7131dde7c37d6ec8aa18da76a2bc5fabdbd57e2dcd2cbd9c5ed49bef2119a2f2152caccbdd3b0812d68eae0479a2cfdd60790d3294f3f46a3d5550</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-timer@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-timer/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-timer/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-timer.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-chord@3.0.1">
+            <name>d3-chord</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Visualize relationships or network flow with an aesthetically-pleasing circular layout.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">544e52e9335afa3f26b24b25ec7c23c4c1c3336c8d2b75c292eb089695f99306ae05f5eec8b02d360f630a9fe21c7eb5b60238b1be91fc420c582a8421d8d3fe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-chord@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-chord/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-chord/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-chord.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-path@3.0.1">
+            <name>d3-path</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Serialize Canvas path commands to SVG.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">82aea06689bd00565bcb460b76ec53d6a9aba78c69040d5866bd7d388ef5ed621d284d8e339113ab9aab1cb6f7d35220c612f072ec6f19954b79e59cfe4d48eb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-path@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-path/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-path/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-path.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-contour@3.0.1">
+            <name>d3-contour</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Compute contour polygons using marching squares.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d0e7380f42b287084ced92f444c9df1b270b37b8711c1f02326c19dfe1f6e8f5801b4a3336e606e615d20cd8263f54a026440cae51ba70fdb41e86926ef7094d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-contour@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-contour/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-contour/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-contour.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-delaunay@6.0.2">
+            <name>d3-delaunay</name>
+            <version>6.0.2</version>
+            <description>
+                <![CDATA[Compute the Voronoi diagram of a set of two-dimensional points.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">20c2cd95daee0d049cadc7d3f8c5a76b38476c326171127238404025fc109c795ed513e1e960ee2efc4d02b523bb655231252e2a56390461d1276718ca814b41</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-delaunay@6.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/d3/d3-delaunay</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-delaunay/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-delaunay.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/delaunator@5.0.0">
+            <name>delaunator</name>
+            <version>5.0.0</version>
+            <description>
+                <![CDATA[An incredibly fast JavaScript library for Delaunay triangulation of 2D points]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0322efb7225d6effd4d469224ba814533725468018e06b3be6a90cca0249854ef92d6e0336e485d91333a71b3d8f0f4ecf50686c78d37641b7cdd3f9e55c40ab</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/delaunator@5.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mapbox/delaunator#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mapbox/delaunator/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mapbox/delaunator.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/robust-predicates@3.0.1">
+            <name>robust-predicates</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Fast robust predicates for computational geometry]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9dd108a6ccd41e21b81ed0ec40b788b8cbd1b039e7f1cf2b612b5a6e8721b54782bdfbaf369b5be5351b543ebc2d10082cf5fba7d9ea406878c49827dc41d2fe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Unlicense</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/robust-predicates@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mourner/robust-predicates#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mourner/robust-predicates/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mourner/robust-predicates.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-dsv@3.0.1">
+            <name>d3-dsv</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[A parser and formatter for delimiter-separated values, such as CSV and TSV]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">506e8ebdd23969f0c814ff70e06d2636ae747523ac5c725a444f1aac04b9a3d0295a7204969f06670d43ba7f2f3fc3b21ce67f40950a509c318a20829d4c26f9</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-dsv@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-dsv/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-dsv/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-dsv.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/commander@7.2.0">
+            <name>commander</name>
+            <version>7.2.0</version>
+            <description>
+                <![CDATA[the complete solution for node.js command-line programs]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">42b59707e6504953e6216221b443bd1fe8301da3066221790a1be827e2bd6461c6fec56c6baca27ac003d460bfc78eac113d345e5c28d6ee3d455555cef71293</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/commander@7.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/tj/commander.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/tj/commander.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/tj/commander.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/iconv-lite@0.6.3">
+            <name>iconv-lite</name>
+            <version>0.6.3</version>
+            <description>
+                <![CDATA[Convert character encodings in pure javascript.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e1f0a4efdc2c84c773329dab1f4eaa5ab244e22a25a8b842507f8e8ae22053ef91074fbde0d9432fcd5ab4eec65f9e6e50ab9ea34b711cdb6f13223a0fb59d33</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/iconv-lite@0.6.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/ashtuchkin/iconv-lite</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/ashtuchkin/iconv-lite/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/ashtuchkin/iconv-lite.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/safer-buffer@2.1.2">
+            <name>safer-buffer</name>
+            <version>2.1.2</version>
+            <description>
+                <![CDATA[Modern Buffer API polyfill without footguns]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">619a372bcd920fb462ca2d04d4440fa232f3ee4a5ea6749023d2323db1c78355d75debdbe5d248eeda72376003c467106c71bbbdcc911e4d1c6f0a9c42b894b6</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/safer-buffer@2.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/ChALkeR/safer-buffer#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/ChALkeR/safer-buffer/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/ChALkeR/safer-buffer.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/rw@1.3.3">
+            <name>rw</name>
+            <version>1.3.3</version>
+            <description>
+                <![CDATA[Now stdin and stdout are files.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">3f862dfa91ab766b14885ef4d01124bfda074fb4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-3-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/rw@1.3.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mbostock/rw</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mbostock/rw/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/mbostock/rw.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-fetch@3.0.1">
+            <name>d3-fetch</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Convenient parsing for Fetch.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">92991020cdb49f7a0b54128683aa07ad47211ccdf1383913ce33288fb696405ab940433e47a1385a4cd3e7eb688c363bca37b3f0a802051a23e1a12bf7d15dab</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-fetch@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-fetch/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-fetch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-fetch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-force@3.0.0">
+            <name>d3-force</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Force-directed graph layout using velocity Verlet integration.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">cf157f4ac03e538cad7bcd39d4fe040b27630ff4bea9e62d9da23202cf6d8070aa7e0ba66bf6804038e8f3903d67a10a8418ab1d12475c88095257df4f8c1d2e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-force@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-force/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-force/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-force.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-quadtree@3.0.1">
+            <name>d3-quadtree</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Two-dimensional recursive spatial subdivision.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d38c43af14130d3085c0fe47ea1461b1171bf71c6fd91ce472cca01739a4488389cb73de4493fbb0d93755121b297728839eb53fda14d3fad51fabc344e02053</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-quadtree@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-quadtree/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-quadtree/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-quadtree.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-format@3.1.0">
+            <name>d3-format</name>
+            <version>3.1.0</version>
+            <description>
+                <![CDATA[Format numbers for human consumption.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">632508e8012e63f5a9b7c2962e0647b0853ce9ab668a4ba83a609fa269add0b60789048f8ef5f601c15cdfc3d7d02069af6442c998637b1f8d4bf2cf3afe98a8</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-format@3.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-format/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-format/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-format.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-geo@3.0.1">
+            <name>d3-geo</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Shapes and calculators for spherical coordinates.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">5addb7c41c9c879b52cbd21800cd45476ad62011566b9d81fe817f1987b9cdb747ae0d3c154f3e06e23a5f83ef4f03c376a74076ad387ee589a442edb1a12378</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-geo@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-geo/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-geo/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-geo.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-hierarchy@3.1.1">
+            <name>d3-hierarchy</name>
+            <version>3.1.1</version>
+            <description>
+                <![CDATA[Layout algorithms for visualizing hierarchical data.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2ed008bb9e1472d4668462a596579f9661da96db47df391f4a2e0d94aad302814a8c2f8014126886c080760081610c07d05f2120e198f3d5f5a4fa8072194c90</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-hierarchy@3.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-hierarchy/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-hierarchy/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-hierarchy.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-polygon@3.0.1">
+            <name>d3-polygon</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Operations for two-dimensional polygons.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">def6c0eef5d8c1f7b54988440fef9f3d44255926134c698599089a9f2fe075b896814fe2132433cb29b02fd4a4263145b824b8f74d814b37b0546b071e61ed5e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-polygon@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-polygon/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-polygon/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-polygon.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-random@3.0.1">
+            <name>d3-random</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Generate random numbers from various distributions.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">15731ef467f14f1a9de43ea316c43e0c9f01252e04fdf4f99aaa9d8e8bf2904076a056d330355d8353061717d05be141386a01fbe93cb3006b8304874f57145d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-random@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-random/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-random/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-random.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-scale@4.0.2">
+            <name>d3-scale</name>
+            <version>4.0.2</version>
+            <description>
+                <![CDATA[Encodings that map abstract data to visual representation.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">1995b8eb8835487eda83763b8578dff11a14b80148aa494e02adcc465e0e69669b4c5258f4f37f1356249615cb87e390ddf33dc92da73a40a84be58b67a92fc5</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-scale@4.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-scale/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-scale/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-scale.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-time@3.0.0">
+            <name>d3-time</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[A calculator for humanity’s peculiar conventions of time.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ce65779519e568b234f32f483115d20ec8506f9363efbb269dfa677762eb05aff62b6f352628da72da2479a935e1069c1ecfe42aad00435db59e274d6256ab6d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-time@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-time/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-time/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-time.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-time-format@4.1.0">
+            <name>d3-time-format</name>
+            <version>4.1.0</version>
+            <description>
+                <![CDATA[A JavaScript time formatter and parser inspired by strftime and strptime.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">749c4f065cc2ecdba00763c32f0a3d43c2624d1dccddee3f5c0364ade29253117cbef5caaa6d587eae10e5d97c6ee765ba745595451a0d4805b7b780f03e8d2e</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-time-format@4.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-time-format/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-time-format/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-time-format.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-scale-chromatic@3.0.0">
+            <name>d3-scale-chromatic</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Sequential, diverging and categorical color schemes.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2f1f6d86dc402ab3b63eae8e3b651ae3be28a5ece22abdbbf4ffd3299b0c0216323430f712709f7dd6e079260de4eee6d81c90b31b6e3f60920dcccd508676da</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-scale-chromatic@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-scale-chromatic/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-scale-chromatic/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-scale-chromatic.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-shape@3.1.0">
+            <name>d3-shape</name>
+            <version>3.1.0</version>
+            <description>
+                <![CDATA[Graphical primitives for visualization, such as lines and areas.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b460e1d4cb9ff245a31034ff2ecc1927c585f39c8364bbd5269614f4dabef3ec96d59e5e9f1ae65ce85302b964684954f824e7d0e4d53658befe2f873f8e5011</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-shape@3.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-shape/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-shape/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-shape.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/d3-zoom@3.0.0">
+            <name>d3-zoom</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Pan and zoom SVG, HTML or Canvas using mouse or touch input.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">6fc02657791f41aa9602e69c6cfb8d6cbeaf6a19ce25f94e85ec4bccc30d2e06badbefe7874273bc9d1a3bfe5ae4c560505192ec7bb53fd3f4de8ddf2640c2cb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/d3-zoom@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://d3js.org/d3-zoom/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/d3/d3-zoom/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/d3/d3-zoom.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+</bom>

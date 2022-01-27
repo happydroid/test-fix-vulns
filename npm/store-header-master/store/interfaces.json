@@ -1,0 +1,123 @@
+{
+  "header": {
+    "allowed": [
+      "minicart",
+      "minicart-base-content",
+      "login",
+      "category-menu",
+      "search-bar",
+      "locale-switcher",
+      "theme",
+      "user-address",
+      "menu",
+      "unstable--menu",
+      "menu-link",
+      "telemarketing",
+      "logo",
+      "sandbox",
+      "header-layout.desktop",
+      "header-layout.mobile",
+      "header-layout.desktop-scroll",
+      "header-layout.mobile-scroll",
+      "unstable--header-layout.desktop",
+      "unstable--header-layout.mobile",
+      "unstable--header-layout.desktop-scroll",
+      "unstable--header-layout.mobile-scroll"
+    ],
+    "component": "index"
+  },
+  "header.full": {},
+  "header-layout": {
+    "allowed": ["header-row", "header-border"],
+    "component": "Layout",
+    "composition": "children"
+  },
+  "header-layout.desktop": {
+    "device": "desktop"
+  },
+  "header-layout.mobile": {
+    "device": "mobile"
+  },
+  "header-layout.desktop-scroll": {},
+  "header-layout.mobile-scroll": {},
+  "header-spacer": {
+    "component": "Spacer"
+  },
+  "header-row": {
+    "allowed": [
+      "telemarketing",
+      "notification",
+      "logo",
+      "minicart",
+      "minicart-base-content",
+      "sandbox",
+      "login",
+      "search-bar",
+      "locale-switcher",
+      "menu-link",
+      "category-menu",
+      "menu",
+      "unstable--menu",
+      "theme",
+      "user-address",
+      "header-spacer",
+      "rich-text",
+      "drawer",
+      "header-force-center"
+    ],
+    "component": "Row",
+    "composition": "children"
+  },
+  "header-border": {
+    "component": "Border"
+  },
+  "theme": {},
+
+  "unstable--header-layout": {
+    "allowed": ["unstable--header-row", "unstable--header-border"],
+    "component": "Layout",
+    "composition": "children"
+  },
+  "unstable--header-layout.desktop": {
+    "device": "desktop"
+  },
+  "unstable--header-layout.mobile": {
+    "device": "mobile"
+  },
+  "unstable--header-layout.desktop-scroll": {
+    "device": "desktop"
+  },
+  "unstable--header-layout.mobile-scroll": {
+    "device": "mobile"
+  },
+  "_": {
+    "component": "Spacer"
+  },
+  "unstable--header-row": {
+    "allowed": [
+      "telemarketing",
+      "logo",
+      "minicart",
+      "login",
+      "search-bar",
+      "locale-switcher",
+      "menu-link",
+      "category-menu",
+      "menu",
+      "unstable--menu",
+      "theme",
+      "user-address",
+      "_"
+    ],
+    "component": "Row",
+    "composition": "children"
+  },
+  "unstable--header-border": {
+    "component": "Border"
+  },
+  "header-force-center": {
+    "component": "ForceCenter",
+    "composition": "children",
+    "allowed": "*"
+  }
+}

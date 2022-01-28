@@ -90,6 +90,7 @@
     "ie >= 9"
   ],
   "dependencies": {
+    "lodash": "4.17.14",
     "@ant-design/create-react-context": "^0.2.4",
     "@ant-design/icons": "~2.1.1",
     "@ant-design/icons-react": "~2.0.1",

@@ -1,13 +1,15 @@
-# http://editorconfig.org
+# Top-most EditorConfig file
 root = true
 
 [*]
 indent_style = space
+end_of_line = crlf
 indent_size = 4
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
 
+; Match VS' default XML formatting
 [*.csproj]
+indent_style = space
+indent_size = 2
+[*.config]
 indent_style = space
 indent_size = 2

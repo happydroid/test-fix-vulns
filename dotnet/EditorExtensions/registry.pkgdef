@@ -1,0 +1,78 @@
+﻿// See https://twitter.com/Schabse/status/390280700043472896 and http://blogs.msdn.com/b/noahric/archive/2010/03/01/new-extension-css-is-less.aspx
+// {cf49ec7d-92b1-4bbd-9254-9cc13978e82e} is the entire new package.
+// {9bbfd173-9770-47dc-b191-651b7ff493cd} is the Language Service to provide a ContentType for the extension.
+// {40d31677-cbc0-4297-a9ef-89d907823a98} is the primary HtmlEditorFactory.
+[$RootKey$\Languages\File Extensions\.svg]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+
+[$RootKey$\Editors\{40d31677-cbc0-4297-a9ef-89d907823a98}\Extensions]
+"svg"=dword:32
+
+// JavaScript Intellisense
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.intellisense.js]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.debug.js]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.js.map]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.min.js]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.min.js.map]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.js\.js.gz]
+
+// Web.config
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.config]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.config\.release.config]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.config\.debug.config]
+
+// Minified CSS files
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.css]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.css\.min.css]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.css\.css.map]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.css\.css.gz]
+
+// Minified HTML files
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.html]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.html\.min.html]
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.html\.html.gz]
+
+// CoffeeScript
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.coffee]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.coffee\.js]
+
+// Iced CoffeeScript
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.iced]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.iced\.js]
+
+// JSX
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.jsx]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.jsx\.js]
+
+// LESS
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.less]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.less\.css]
+
+// Sass
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.scss]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.scss\.css]
+
+// Sweet.js
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.sjs]
+"RelationType"=dword:00000001
+
+[$RootKey$\Projects\{E24C65DC-7377-472b-9ABA-BC803B73C61A}\RelatedFiles\.sjs\.js]

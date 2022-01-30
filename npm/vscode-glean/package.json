@@ -94,6 +94,7 @@
     "vscode": "^1.1.21"
   },
   "dependencies": {
+    "lodash": "4.17.21",
     "@babel/core": "^7.1.2",
     "@babel/parser": "^7.1.2",
     "@babel/template": "^7.1.2",

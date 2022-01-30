@@ -1,7 +1,0 @@
-{
-  "type": "module",
-  "exports": {
-    ".": "./a/b/c.js",
-    "./a": "./a.mjs"
-  }
-}

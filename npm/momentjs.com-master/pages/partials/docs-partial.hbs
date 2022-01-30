@@ -1,0 +1,63 @@
+<div class="docs">
+	<div class="docs-nav">
+		<div class="docs-nav-search">
+			<label for="search" class="docs-nav-search-label">Search the docs</label>
+			<input type="text" class="docs-nav-search-input" id="search" placeholder="Search…">
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+			<script type="text/javascript" src="//cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+			<script>
+			  var search = docsearch({
+			    apiKey: '{{ algoliaApiKey }}',
+			    indexName: '{{ algoliaIndexName }}',
+					inputSelector: '.docs-nav-search-input',
+	    		debug: false // set to `true` if you want to inspect the dropdown menu's CSS
+			  });
+			</script>
+		</div>
+		<div class="docs-nav-links">
+			{{#each docs}}
+				<div class="docs-nav-section">
+					<a class="docs-nav-section-title" href='#/{{ slug }}/'>{{ title }}</a>
+					{{#each items }}
+						{{#isnt @index 0}}
+							<a class="docs-nav-item" href="#/{{ slug }}/">{{ title }}</a>
+						{{/isnt}}
+					{{/each}}
+				</div>
+			{{/each}}
+		</div>
+	</div>
+
+	<div class="docs-content">
+		{{#each docs}}
+			<article class="docs-section">
+				<a class="docs-section-target" id="/{{ slug }}/" name="/{{ slug }}/"></a>
+				<h2 class="docs-section-title"><a href='#/{{ slug }}/'>{{ title }}</a></h2>
+			</article>
+			{{#each items }}
+				<article class="docs-method">
+					<a class="docs-method-target" id="/{{ slug }}/"  name="/{{ slug }}/"></a>
+					{{#isnt @index 0}}
+						<h3 class="docs-method-title">
+							<a href='#/{{ slug }}/'>{{ title }}</a>
+							{{#if version}}
+								<span>{{ versionDescription version }}</span>
+							{{/if}}
+						</h3>
+						<a class="docs-method-edit" href="{{ edit }}" target="_blank">edit</a>
+					{{/isnt}}
+					<div class="docs-method-prose">
+						{{#if signature}}
+							<div class="docs-method-signature">
+								{{#markdown}}```js{{{ signature }}}```{{/markdown}}
+							</div>
+						{{/if}}
+						{{#markdown breaks=false}}
+							{{{body}}}
+						{{/markdown}}
+					</div>
+				</article>
+			{{/each}}
+		{{/each}}
+	</div>
+</div>

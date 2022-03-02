@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" version="1" serialNumber="urn:uuid:bb73feef-3408-44b4-9ee8-cfb607e83063">
+  <metadata>
+    <timestamp>2022-03-01T15:22:25Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>cyclonedx-cocoapods</name>
+        <version>0.1.1</version>
+      </tool>
+      <tool>
+        <name>cocoapods</name>
+        <version>~&gt; 1.10.1</version>
+      </tool>
+      <tool>
+        <name>nokogiri</name>
+        <version>~&gt; 1.11.2</version>
+      </tool>
+    </tools>
+  </metadata>
+  <components>
+    <component type="library">
+      <author>Grzegorz Pstrucha &lt;gricha@fb.com&gt;</author>
+      <publisher>Grzegorz Pstrucha &lt;gricha@fb.com&gt;</publisher>
+      <name>FBRetainCycleDetector</name>
+      <version>0.1.2</version>
+      <description><![CDATA[Library that helps with detecting retain cycles in iOS apps]]></description>
+      <hashes>
+        <hash alg="SHA-1">45462f9ed1af0cd77224a4cc4e6dacaca47371b4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+      </licenses>
+      <purl>pkg:cocoapods/FBRetainCycleDetector@0.1.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/facebook/FBRetainCycleDetector</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+</bom>

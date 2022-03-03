@@ -1,0 +1,498 @@
+upcoming:
+- Fixes oauth call to be a post
+
+releases:
+- version: 5.9.3
+  date: February 07 2018
+  notes:
+  - Fixes expired certificate. [ash]
+
+- version: 5.9.2
+  date: January 26 2018
+  notes:
+  - Updates Artsy Font library. [ash]
+
+- version: 5.9.1
+  date: January 26 2018
+  notes:
+  - Moves to dependencies for common RxSwift operators. [ash]
+  - Fixes parameter encoding bug. [ash]
+  - Fixes Stripe config. [ash]
+
+- version: 5.9.0
+  date: July 06 2017
+  notes:
+  - Enables Segment analytics. [ash]
+  - Updates CardFlight SDK. Again. [ash]
+  - Updates CocoaPods. [ash]
+  - Updates Font pod. [ash]
+
+- version: 5.8.3
+  date: May 05 2017
+  notes:
+  - Fixed a problem with newer card readers. [ash]
+
+- version: 5.8.2
+  date: April 19 2017
+  notes:
+  - Admin sale selection view shoulds more than ten sales now. [ash]
+  - Currency symbol is now displayed in the correct font. [ash]
+  - Fixes a problem with starting bids displaying instead of current bids. [ash]
+
+- version: 5.8.1
+  date: April 18 2017
+  notes:
+  - List of sales in admin interface now scrolls. [ash]
+
+- version: 5.8.0
+  date: April 11 2017
+  notes:
+  - Filters out sold artworks during the sale. [ash]
+
+- version: 5.7.1
+  date: April 05 2017
+  notes:
+  - Fixed a crash when tapping the bid button. [ash]
+
+- version: 5.7.0
+  date: April 04 2017
+  notes:
+  - Adds support for higher currency lot values. [ash]
+  - Adds support for non-numeric lot numbers. [ash]
+  - Fixes remaining font issues. [ash]
+
+- version: 5.6.2
+  date: February 01 2017
+  notes:
+  - Fixes problem switching between grid and table layouts. [ash]
+  - Fixes crash on testing credit card authorization. [ash]
+
+- version: 5.6.1
+  date: January 31 2017
+  notes:
+  - Underlying infrastructure work and library updates. [AYastrebov]
+  - Fixes problem with the app crashing when switching auctions. [ash]
+
+- version: 5.6.0
+  date: January 30 2017
+  notes:
+  - Adds support for multiple currencies. [ash]
+
+- version: 5.5.1
+  date: December 06 2016
+  notes:
+  - Fixes a few missing fonts. [ash]
+
+- version: 5.5.0
+  date: November 23 2016
+  notes:
+  - New fonts. [ash]
+
+- version: 5.4.1
+  date: November 14 2016
+  notes:
+  - Updated provisioning profile. [ash]
+
+- version: 5.4.0
+  date: November 04 2016
+  notes:
+  - Updates app to iOS 10. [ash]
+  - Updates project to Xcode 8 / Swift 3. [ash]
+  - Enables compiler optimizations. [ash]
+
+- version: 5.3.0
+  date: October 25 2016
+  notes:
+  - Removes "No Estimate" when estimates are missing. [ash]
+
+- version: 5.2.0
+  date: October 07 2016
+  notes:
+  - Updates certificate. [ash]
+
+- version: 5.1.4
+  date: September 08 2016
+  notes:
+  - Fixes problem with some tall sale artwork images. [ash]
+
+- version: 5.1.3
+  date: April 15 2016
+  notes:
+  - Fixes crash when logging in with phone/email. [ash]
+
+- version: 5.1.2
+  date: March 02 2016
+  notes:
+  - Hopefully a fix WRT reloading lots. [orta]
+  - Hopefully a fix for the last fix. [orta]
+
+- version: 5.1.2
+  date: March 1 2016
+  notes:
+  - Fixes an issue with reloading lots that are on-screen [orta]
+
+- version: 5.1.1
+  date: February 16 2016
+  notes:
+  - Fixes display issue with D*Face artwork image [ash]
+
+- version: 5.1.0
+  date: February 11 2016
+  notes:
+  - Fixes a problem caused when manually-registered bidders were prompted for their password [ash]
+
+- version: 5.0.2
+  date: February 05 2016
+  notes:
+  - Fixes problem placing bids [ash]
+  - Fixes inability to cancel after agreeing to place a higher bid [ash]
+
+- version: 5.0.1
+  date: February 05 2016
+  notes:
+  - Fixes problem authenticating with bidder/phone numbers [ash]
+
+- version: 5.0.0
+  date: January 06 2016
+  notes:
+  - Updates under the hood [ash]
+
+- version: 4.1.0
+  date: November 11 2015
+  notes:
+  - Compatibility with new card readers [ash]
+
+- version: 4.0.1
+  date: November 11 2015
+  notes:
+  - Shows app version in admin screen [ash]
+  - Can scroll to bottom of admin logs [ash]
+
+- version: 4.0.0
+  date: November 11 2015
+  notes:
+  - iOS 9 support [ash]
+  - Removes support for iOS 8 [ash]
+  - No longer allow users to "cancel" after confirming a bid [ash]
+  - Removes check for wifi network name [ash]
+  - Improved analytics [ash]
+
+- version: 3.8.6
+  date: October 30 2015
+  notes:
+  - Removes unnecessary logic around bid counting [ash]
+
+- version: 3.8.5
+  date: October 21 2015
+  notes:
+  - A newly registered bidder will now be shown their details no matter how many times they get outbid [ash]
+
+- version: 3.8.6
+  notes:
+  - Fixes problem with staging flag [ash]
+
+- version: 3.8.5
+  date: October 21 2015
+  notes:
+  - A newly registered bidder will now be shown their details no matter how many times they get outbid [ash]
+
+- version: 3.8.4
+  date: October 21 2015
+  notes:
+  - Displays zero bids for a sale artwork that has no highest bid [ash]
+
+- version: 3.8.3
+  date: October 13 2015
+  notes:
+  - Adds selective network logging [ash]
+  - Fixes problems with new users increasing bids [ash]
+  - Fixes problem with the "Place Higher Bid" button not always appearing [ash]
+
+- version: 3.8.2
+  date: October 13 2015
+  notes:
+  - Increases max bid to 10 000 000 [alan]
+  - New safeguard to ensure Kiosk is hitting network [ash]
+  - Fixes problem logging in with bidder/phone number and pin [ash]
+
+- version: 3.8.1
+  date: October 9 2015
+  notes:
+  - Fixes new polling mechanism [alan]
+
+- version: 3.8.0
+  date: October 8 2015
+  notes:
+  - New polling mechanism to avoid bidding problems [alan]
+  - Adds CVV field to manual CC entry screen [alan]
+
+- version: 3.7.0
+  date: October 7 2015
+  notes:
+  - Removes Zip code requiement for swiped credit cards [ash]
+  - Adds new parameters for trusted clients [ash]
+
+- version: 3.6.1
+  date: September 27 2015
+  notes:
+  - Fixes problem with lot numbers changing during the auction [ash]
+
+- version: 3.6.0
+  date: September 24 2015
+  notes:
+  - Adds long-tap gesture to bidding error message to provide technical error details [ash]
+  - Fixes problem manually entering in credit card info [ash]
+  - Disables bid buttons and marks them as "SOLD" for artworks that have been sold [ash]
+  - Adds support for new estimate field [ash]
+  - Fixes crash with images that have unspecified aspect ratios [ash]
+  - Displays artwork thumbnail until full image is downlaoded for detail view [ash]
+  - Tapping anywhere in the table cells shows more details [ash]
+  - Allows users to dismiss high bid screens by tapping checkmark [ash]
+  - Adds staging-only credit card testing [ash]
+
+- version: 3.5.2
+  date: June 19 2015
+  notes:
+  - Attempts to fix problem tokenizing credit cards [ash]
+
+- version: 3.5.1
+  date: May 8 2015
+  notes:
+  - Fixes problem installing app [ash]
+
+- version: 3.5.0
+  date: May 6 2015
+  notes:
+  - Fixes password problems when signing in [ash]
+  - Prevents user from registering with invalid passwords [ash]
+  - Disables iPad sleep timer [ash]
+  - Moves from Balanced to Stripe for credit card processing [ash]
+  - Allows registration with email addresses containing plus signs [ash]
+  - New and improved bidder registration details screen [ash]
+  - Removed interstitial screen between registration confirmation and showing bidder details [ash]
+  - Fixes potential crash for existing users signing in with phone numbers [ash]
+  - Bidder details screen no longer hides PIN [ash]
+
+- version: 3.4.0
+  date: April 13 2015
+  notes:
+  - Fixes problems entering in phone numbers [ash]
+  - Adds a "Forgot Password" link when logging in with Artsy credentials [ash]
+  - Registering to bid with an existing account no longer produces an error message [ash]
+  - Fixes problem correcting email [ash]
+
+- version: 3.3.1
+  date: April 9 2015
+  notes:
+  - New release to attempt fix for crashes [ash]
+
+- version: 3.3.0
+  date: April 1 2015
+  notes:
+  - New deploy infrastructure [ash]
+
+- version: 3.2.0
+  date: March 26 2015
+  notes:
+  - Fix for lots with multiple images [ash]
+  - Help menu bug fixed [ash]
+  - Interface messaging improvements [ash]
+  - New icon [orta]
+
+- version: 3.1.1
+  date: February 27 2015
+  notes:
+  - Buyers Premium [ash]
+
+- version: 2.3.2
+  date: November 21 2014
+  notes:
+  - Reserve-handling [ashfurrow]
+
+- version: 2.3.1
+  date: November 14 2014
+  notes:
+  - Fix for requesting a PIN [orta]
+
+- version: 2.3.0
+  date: November 14 2014
+  notes:
+  - Next buttons function on registration flow [ash]
+  - A-Z is ordered correctly [orta]
+  - Artwork blurb is now included :D [orta]
+
+- version: 2.1.1
+  date: November 12 2014
+  notes:
+  - Markdown supported in Sale Artwork view [orta]
+  - Artwork scrolls correctly in Sale Artwork view [orta]
+  - Sale Artwork Detail View handles artworks with no Artists [orta]
+  - Sale Artwork Detail View shows the additional info, not blurb [orta]
+  - More info buttons work [orta]
+
+- version: 2.1.0
+  date: November 10 2014
+  notes:
+  - Improved manual input handling [orta]
+  - Fixed messages at the end of registration flow [orta]
+  - Potential credit card handler fix [orta]
+
+- version: 2.0.0
+  date: November 5 2014
+  notes:
+  - Further improvements to details view [ash]
+  - Artwork details view [ash]
+  - Fix for table'd artwork layout [ash]
+  - Support typing in credit card details mainually [orta]
+
+- version: 1.1.1
+  date: November 4 2014
+  notes:
+  - Admin visual overhaul [orta]
+  - Modified underpinnings necessary for detail view [ash]
+  - More work on details view [ash]
+
+- version: 1.1.0
+  date: November 3 2014
+  notes:
+  - Admin section for testing Cards [orta]
+  - Initial work on Artwork details view [ash]
+  - If you're outbid you can bid again straight away [orta]
+
+- version: 1.0.1
+  date: November 3 2014
+  notes:
+  - Admin can be accessed when networking is down [orta]
+  - Offline screen [orta]
+
+- version: 1.0.0
+  date: October 21 2014
+  notes:
+  - Help Changes around laying popovers [laura]
+  - Removed the ability to have a + in an email [orta]
+  - Admin section hides the Help button [orta]
+  - Panic web mode shows a correct X to close button [orta]
+  - Analyics [orta]
+
+- version: 0.1.0
+  date: October 21 2014
+  notes:
+  - You can create mutliple users in one session [orta + ash]
+  - Only Registering has a spinner [orta]
+  - Error states on PIN / Artsy Login / Password View [orta]
+  - Improved networking error logging [orta]
+  - Spruced up Help menu [ash]
+
+- version: 0.0.9
+  date: October 20 2014
+  notes:
+  - Buttons are 50px [1aura]
+  - Admin section can turn off dev buttons [orta]
+  - Admin section has a password [orta]
+  - Fixed text overflow in table layout [ash]
+  - Admin Section has a log viewer with all networking errors [orta]
+  - After placing a bid the listings UI is immediately updated [ash]
+  - UI fixes for tabular view [ash]
+  - Fixes problem when attaining the max bid but being told you didn't [ash]
+  - Jump between bidder log in and email log in [laura]
+  - Show conditions of Sale [ash]
+  - Show Credit Card processing information [orta]
+
+- version: 0.0.8
+  date: October 20 2014
+  notes:
+  - After placing a bid the listings UI is immediately updated [ash]
+  - UI fixes for tabular view [ash]
+  - Syncing updates to bids [ash]
+  - Show confirmation at the end of the bid / registration flow [orta]
+  - Changed some missing fonts [1aura]
+  - Postal Codes are saved [orta]
+  - Admin Panel can toggle between stagin / production [orta]
+  - Admin Panel can choose between _active_ Auctions [orta]
+  - Image Aspect Ratio fixes in Grid view [orta]
+  - Can jump between different Registration stages [orta]
+  - Popover animates into place [orta]
+
+- version: 0.0.7
+  date: October 17 2014
+  notes:
+  - User Registration [orta + ash]
+  - User Bidding [orta]
+  - Use Real Card details from Reader in the Signup Flow [orta]
+  - Signing up without bidding flows to a page showing only Bidder Number + PIN [orta]
+  - Disable confirm buttons when running network requests [1aurabrown]
+  - Only apply phone number formatting once bidder number is bigger than 6 digits [1aurabrown]
+  - Use new Avante Garde font [1aurabrown]
+  - Layout fixes in the artwork listings [ash]
+  - Requesting lost password works [orta]
+  - Requesting lost PIN works [orta]
+
+- version: 0.0.5
+  date: October 13 2014
+  notes:
+  - Bid Detail Previews are shown throughout [orta]
+  - Use italics for title and no italics for dates [orta]
+  - Added a countdown on main page [orta]
+  - Added help menu [ashfurrow]
+  - Added a mode for loading an Auction via artsy.net [orta]
+  - Added an admin panel to close the app [orta]
+  - Turned off the status bar [orta]
+  - Use Avant Garde font with custom tracking [1aurabrown]
+  - Fix bug where Delete and Clear keypad buttons were not working [1aurabrown]
+  - Re-name some of the sort tabs to shorter names [1aurabrown]
+
+- version: 0.0.4
+  date: October 9 2014
+  notes:
+  - Textfields use the right fonts [1aurabrown]
+  - Bid validations are correct on the place bid view [1aura]
+  - Shows artworks in a list format [ash]
+  - Support sorting Auction Artworks [ash]
+  - Added a button to sign up [orta]
+  - Registration flow set up [orta]
+
+- version: 0.0.3
+  date: October 7 2014
+  notes:
+  - Changed buttons and fonts on place bid view [1aurabrown]
+  - Added support for logging via PIN and bidder / number [orta]
+
+- version: 0.0.2
+  date: October 2 2014
+  notes:
+  - Artwork Listings can be browsed [ash]
+  - Most confirm / enter buttons now show they're disabled [orta]
+  - Bid fulfillment shows in a popover [orta]
+  - Bid Fulfillment flow is prototypical via the bottom buttons [orta]
+  - Analytics / Hockey setup [orta]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

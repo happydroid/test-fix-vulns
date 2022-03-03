@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GondolaMage-Regular.otf">
+            <string>GondolaMageRegular</string>
+        </array>
+        <array key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="loginsStackView" destination="zEg-A8-aMM" id="ca4-6i-hda"/>
+                <outlet property="mageLabel" destination="AjL-hK-ohz" id="vZj-Un-uog"/>
+                <outlet property="serverURL" destination="6wE-Es-XY5" id="V2h-fy-Dgp"/>
+                <outlet property="versionLabel" destination="McJ-Ia-VcZ" id="xY3-Vu-rKe"/>
+                <outlet property="view" destination="HSM-eT-VRH" id="Xgh-Ms-s2S"/>
+                <outlet property="wandLabel" destination="yBZ-Db-LW7" id="9nM-dy-f55"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HSM-eT-VRH">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wE-Es-XY5">
+                    <rect key="frame" x="0.0" y="617" width="375" height="30"/>
+                    <accessibility key="accessibilityConfiguration" label="Server URL"/>
+                    <state key="normal" title="&lt;mage server url&gt;">
+                        <color key="titleColor" red="0.066666666669999999" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="serverURLTapped:" destination="-1" eventType="touchUpInside" id="EZ0-eJ-irc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McJ-Ia-VcZ">
+                    <rect key="frame" x="27.5" y="646" width="320" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="bog-wI-bna"/>
+                        <constraint firstAttribute="height" constant="21" id="mij-Et-n0e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.066666666669999999" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7jM-R6-Uqf">
+                    <rect key="frame" x="0.0" y="135" width="375" height="474"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zEg-A8-aMM">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="474"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="V0W-aJ-EIZ"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="zEg-A8-aMM" secondAttribute="bottom" id="2O2-po-8LU"/>
+                        <constraint firstItem="zEg-A8-aMM" firstAttribute="leading" secondItem="7jM-R6-Uqf" secondAttribute="leading" id="NX6-ZB-crD"/>
+                        <constraint firstAttribute="trailing" secondItem="zEg-A8-aMM" secondAttribute="trailing" id="SUg-xU-HxZ"/>
+                        <constraint firstItem="zEg-A8-aMM" firstAttribute="width" secondItem="7jM-R6-Uqf" secondAttribute="width" id="XSX-5c-GKM"/>
+                        <constraint firstItem="zEg-A8-aMM" firstAttribute="height" secondItem="7jM-R6-Uqf" secondAttribute="height" priority="1" id="ntC-tL-X48"/>
+                        <constraint firstItem="zEg-A8-aMM" firstAttribute="top" secondItem="7jM-R6-Uqf" secondAttribute="top" id="vin-hy-8MB"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Re4-gS-TLt">
+                    <rect key="frame" x="16" y="40" width="343" height="55"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yw6-zq-kyk">
+                            <rect key="frame" x="69" y="0.0" width="205" height="55"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAGE" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjL-hK-ohz">
+                                    <rect key="frame" x="54.5" y="0.0" width="150.5" height="100"/>
+                                    <fontDescription key="fontDescription" name="GondolaMageRegular" family="GondolaMage" pointSize="52"/>
+                                    <color key="textColor" red="0.066666666669999999" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBZ-Db-LW7">
+                                    <rect key="frame" x="0.0" y="0.0" width="46.5" height="55"/>
+                                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="50"/>
+                                    <color key="textColor" red="0.066666666669999999" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="yBZ-Db-LW7" secondAttribute="bottom" id="1ow-w4-9Dc"/>
+                                <constraint firstItem="yBZ-Db-LW7" firstAttribute="top" secondItem="Yw6-zq-kyk" secondAttribute="top" id="54Q-q4-HjH"/>
+                                <constraint firstAttribute="trailing" secondItem="AjL-hK-ohz" secondAttribute="trailing" id="GSH-yY-cH5"/>
+                                <constraint firstItem="AjL-hK-ohz" firstAttribute="leading" secondItem="yBZ-Db-LW7" secondAttribute="trailing" constant="8" id="I2S-mH-ioQ"/>
+                                <constraint firstItem="AjL-hK-ohz" firstAttribute="top" secondItem="Yw6-zq-kyk" secondAttribute="top" id="OzJ-G3-mNq"/>
+                                <constraint firstAttribute="bottom" secondItem="AjL-hK-ohz" secondAttribute="bottom" constant="-45" id="aSM-xZ-Zju"/>
+                                <constraint firstAttribute="height" constant="55" id="bjI-L6-1EB"/>
+                                <constraint firstItem="yBZ-Db-LW7" firstAttribute="leading" secondItem="Yw6-zq-kyk" secondAttribute="leading" id="tYW-om-fSm"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Yw6-zq-kyk" firstAttribute="centerX" secondItem="Re4-gS-TLt" secondAttribute="centerX" id="U8A-gp-o4e"/>
+                        <constraint firstItem="Yw6-zq-kyk" firstAttribute="centerY" secondItem="Re4-gS-TLt" secondAttribute="centerY" id="e8o-pX-y0D"/>
+                        <constraint firstAttribute="height" constant="55" id="jL8-c7-osd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="McJ-Ia-VcZ" firstAttribute="centerX" secondItem="HSM-eT-VRH" secondAttribute="centerX" id="9gb-KC-mrg"/>
+                <constraint firstItem="Re4-gS-TLt" firstAttribute="leading" secondItem="HSM-eT-VRH" secondAttribute="leading" constant="16" id="GNl-aA-lFw"/>
+                <constraint firstAttribute="bottomMargin" secondItem="McJ-Ia-VcZ" secondAttribute="bottom" id="ImJ-88-WGh"/>
+                <constraint firstItem="7jM-R6-Uqf" firstAttribute="leading" secondItem="HSM-eT-VRH" secondAttribute="leadingMargin" constant="-16" id="O7e-Gm-QEY"/>
+                <constraint firstItem="7jM-R6-Uqf" firstAttribute="top" secondItem="Re4-gS-TLt" secondAttribute="bottom" constant="40" id="Rlg-VF-ECW"/>
+                <constraint firstAttribute="trailing" secondItem="6wE-Es-XY5" secondAttribute="trailing" id="csN-af-BlO"/>
+                <constraint firstItem="6wE-Es-XY5" firstAttribute="leading" secondItem="HSM-eT-VRH" secondAttribute="leading" id="dKX-F2-FI9"/>
+                <constraint firstItem="6wE-Es-XY5" firstAttribute="top" secondItem="7jM-R6-Uqf" secondAttribute="bottom" constant="8" id="dsJ-ec-bWX"/>
+                <constraint firstItem="Re4-gS-TLt" firstAttribute="top" secondItem="HSM-eT-VRH" secondAttribute="topMargin" constant="40" id="fXH-hl-yPe"/>
+                <constraint firstAttribute="trailing" secondItem="Re4-gS-TLt" secondAttribute="trailing" constant="16" id="gKI-a1-67i"/>
+                <constraint firstAttribute="trailingMargin" secondItem="7jM-R6-Uqf" secondAttribute="trailing" constant="-16" id="jBx-md-wvT"/>
+                <constraint firstItem="McJ-Ia-VcZ" firstAttribute="top" secondItem="6wE-Es-XY5" secondAttribute="bottom" constant="-1" id="uKe-zz-eXb"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

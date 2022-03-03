@@ -1,0 +1,59 @@
+//
+//  Attachment.m
+//  mage-ios-sdk
+//
+//  Created by William Newman on 4/13/16.
+//  Copyright © 2016 National Geospatial-Intelligence Agency. All rights reserved.
+//
+
+import CoreData
+
+@objc public class Attachment: NSManagedObject {
+    
+    @objc public static func attachment(json: [AnyHashable : Any], context: NSManagedObjectContext) -> Attachment? {
+        let attachment = Attachment.mr_createEntity(in: context);
+        attachment?.populate(json: json);
+        return attachment;
+    }
+    
+    @objc public func populate(json: [AnyHashable : Any]) {
+        self.remoteId = json[AttachmentKey.id.key] as? String
+        self.contentType = json[AttachmentKey.contentType.key] as? String
+        self.url = json[AttachmentKey.url.key] as? String
+        self.name = json[AttachmentKey.name.key] as? String
+        self.size = json[AttachmentKey.size.key] as? NSNumber
+        self.observationFormId = json[AttachmentKey.observationFormId.key] as? String
+        self.fieldName = json[AttachmentKey.fieldName.key] as? String
+        if let dirty = json[AttachmentKey.dirty.key] as? Bool {
+            self.dirty = dirty;
+        } else {
+            self.dirty = false;
+        }
+        self.localPath = json[AttachmentKey.localPath.key] as? String
+        
+        if let lastModified = json[AttachmentKey.lastModified.key] as? String {
+            let formatter = ISO8601DateFormatter()
+            formatter.formatOptions = [.withDashSeparatorInDate, .withFullDate, .withFractionalSeconds, .withTime, .withColonSeparatorInTime, .withTimeZone];
+            formatter.timeZone = TimeZone(secondsFromGMT: 0)!;
+            self.lastModified = formatter.date(from: lastModified);
+        } else {
+            self.lastModified = Date();
+        }
+        
+        if let markedForDeletion = json[AttachmentKey.markedForDeletion.key] as? Bool {
+            self.markedForDeletion = markedForDeletion;
+        } else {
+            self.markedForDeletion = false;
+        }
+        
+    }
+    
+    @objc public func sourceURL(size: NSInteger) -> URL? {
+        if let localPath = self.localPath, FileManager.default.fileExists(atPath: localPath) {
+            return URL(fileURLWithPath: localPath);
+        } else {
+            let token = StoredPassword.retrieveStoredToken();
+            return URL(string: "\(self.url ?? "")?access_token=\(token ?? "")&size=\(size)")
+        }
+    }
+}

@@ -1,0 +1,56 @@
+PODS:
+  - BonMot (6.0.0)
+  - DropDown (2.3.13)
+  - HydraAsync (2.0.6)
+  - Katana (6.0.0):
+    - HydraAsync (< 3, >= 2.0.6)
+  - Logging (1.2.0)
+  - lottie-ios (3.1.8)
+  - PinLayout (1.8.13)
+  - Tempura (7.0.1):
+    - HydraAsync (< 3, >= 2.0.6)
+    - Katana (< 7, >= 6.0)
+  - TempuraTesting (8.0.1):
+    - Tempura (< 8, >= 6.0)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - BonMot (= 6.0.0)
+  - DropDown
+  - HydraAsync (= 2.0.6)
+  - Katana (= 6.0.0)
+  - Logging (= 1.2.0)
+  - lottie-ios (= 3.1.8)
+  - PinLayout (= 1.8.13)
+  - Tempura (= 7.0.1)
+  - TempuraTesting (= 8.0.1)
+  - ZIPFoundation (= 0.9.11)
+
+SPEC REPOS:
+  trunk:
+    - BonMot
+    - DropDown
+    - HydraAsync
+    - Katana
+    - Logging
+    - lottie-ios
+    - PinLayout
+    - Tempura
+    - TempuraTesting
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  BonMot: fb2b6a2209cb3149aca37b7131d49c051c04ae86
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  HydraAsync: 8d589bd725b0224f899afafc9a396327405f8063
+  Katana: f4d129494831b369463ffbaa3e75f0aad1f72db3
+  Logging: 7838d379d234d7e5ae1265fa02804a9084caf04c
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  Tempura: 23d85cf37361dde9bdb15b6cb7b32472e194ea5e
+  TempuraTesting: 4b81ed769806218d0cf2da73d999b4f0f899360c
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: ffcfbc5e599482bd108e8dc4c6e9870aabf4e69e
+
+COCOAPODS: 1.10.1

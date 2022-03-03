@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "lib": ["ES2016"],
+    "moduleResolution": "Node",
+    "target": "ES5",
+
+    "allowJs": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

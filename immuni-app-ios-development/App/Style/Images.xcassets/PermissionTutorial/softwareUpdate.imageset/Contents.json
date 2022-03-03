@@ -1,0 +1,41 @@
+{
+  "images" : [
+    {
+      "filename" : "softwareUpdate-2.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "softwareUpdate-3.pdf",
+      "idiom" : "universal",
+      "locale" : "de"
+    },
+    {
+      "filename" : "softwareUpdate-1.pdf",
+      "idiom" : "universal",
+      "locale" : "en-GB"
+    },
+    {
+      "filename" : "softwareUpdate-4.pdf",
+      "idiom" : "universal",
+      "locale" : "es-ES"
+    },
+    {
+      "filename" : "softwareUpdate-5.pdf",
+      "idiom" : "universal",
+      "locale" : "fr"
+    },
+    {
+      "filename" : "softwareUpdate.pdf",
+      "idiom" : "universal",
+      "locale" : "it"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true,
+    "preserves-vector-representation" : true
+  }
+}

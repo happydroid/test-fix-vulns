@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C5w-rH-oST">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GondolaMage-Regular.otf">
+            <string>GondolaMageRegular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Transition View Controller-->
+        <scene sceneID="bB5-LW-ocg">
+            <objects>
+                <viewController id="C5w-rH-oST" customClass="TransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SUB-sU-DjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="QoM-bH-aiy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pED-ce-0mi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oD9-9K-YXC">
+                                <rect key="frame" x="16" y="306" width="343" height="55"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-0N-jCl">
+                                        <rect key="frame" x="91" y="0.0" width="161" height="55"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAGE" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0x-P2-oYV">
+                                                <rect key="frame" x="0.0" y="0.0" width="161" height="100"/>
+                                                <fontDescription key="fontDescription" name="GondolaMageRegular" family="GondolaMage" pointSize="52"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="f0x-P2-oYV" firstAttribute="centerX" secondItem="ahR-0N-jCl" secondAttribute="centerX" id="2lw-zT-VA5"/>
+                                            <constraint firstItem="f0x-P2-oYV" firstAttribute="top" secondItem="ahR-0N-jCl" secondAttribute="top" id="7MM-Rb-1Lx"/>
+                                            <constraint firstAttribute="height" constant="55" id="RbL-UW-gua"/>
+                                            <constraint firstAttribute="trailing" secondItem="f0x-P2-oYV" secondAttribute="trailing" id="adl-QP-ZBf"/>
+                                            <constraint firstAttribute="bottom" secondItem="f0x-P2-oYV" secondAttribute="bottom" constant="-45" id="xzA-11-b0m"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="9ay-IK-rcd"/>
+                                    <constraint firstItem="ahR-0N-jCl" firstAttribute="centerX" secondItem="oD9-9K-YXC" secondAttribute="centerX" id="Zkh-27-dXR"/>
+                                    <constraint firstItem="ahR-0N-jCl" firstAttribute="centerY" secondItem="oD9-9K-YXC" secondAttribute="centerY" id="oI8-BJ-SOE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.066666666669999999" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oD9-9K-YXC" firstAttribute="centerY" secondItem="pED-ce-0mi" secondAttribute="centerY" id="WUt-iF-6qc"/>
+                            <constraint firstItem="oD9-9K-YXC" firstAttribute="leading" secondItem="pED-ce-0mi" secondAttribute="leading" constant="16" id="c20-HN-DdJ"/>
+                            <constraint firstAttribute="trailing" secondItem="oD9-9K-YXC" secondAttribute="trailing" constant="16" id="gqr-hP-iKw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iFB-jJ-UiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="427"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,196 @@
+name: Immuni
+
+targetTemplates:
+  Module:
+    platform: iOS
+    type: framework
+    deploymentTarget: "13.0"
+    sources:
+      - Modules/${target_name}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.immuni.$(SWIFT_MODULE_NAME)
+        TARGETED_DEVICE_FAMILY: 1
+        SWIFT_VERSION: 5.2
+        # Bitcode must be disabled to allow reproducible builds.
+        # If we delegate Apple's server to perform some additional
+        # steps to build the final IPA, then doing a reproducible build
+        # becomes way harder (or even impossible?)
+        ENABLE_BITCODE: NO
+        SUPPORTS_MACCATALYST: NO
+        # Add fstack-protector-all to the project. Note that the
+        # current implementation is Swift-only and this should not be
+        # necessary. However, adding it doesn't harm and prevents
+        # from weakening the app in case of an OBJC / C lib
+        # or code is added
+        OTHER_CFLAGS: "$(inherited) -fstack-protector-all"
+        OTHER_CPLUSPLUSFLAGS: "$(inherited) -fstack-protector-all"
+
+options:
+  developmentLanguage: "en-GB"
+
+packages:
+  SwiftDGC:
+    url: https://github.com/immuni-app/immuni-dcc-core-ios.git
+    branch: feature/immuni-dgc
+
+targets:
+  Immuni:
+    platform: iOS
+    type: application
+    deploymentTarget: "13.0"
+    sources:
+      - path: App
+
+    dependencies:
+      - target: ImmuniExposureNotification
+      - target: Extensions
+      - target: Models
+      - target: Networking
+      - target: Persistence
+      - target: PushNotification
+      - target: StorePersistence
+
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: it.ministerodellasalute.immuni
+        SWIFT_VERSION: 5.2
+        CODE_SIGN_STYLE: Manual
+        DEVELOPMENT_TEAM: NFBYJRA8B5
+        # Bitcode must be disabled to allow reproducible builds.
+        # If we delegate Apple's server to perform some additional
+        # steps to build the final IPA, then doing a reproducible build
+        # becomes way harder (or even impossible?)
+        ENABLE_BITCODE: NO
+        TARGETED_DEVICE_FAMILY: 1
+        # Add fstack-protector-all to the project. Note that the
+        # current implementation is Swift-only and this should not be
+        # necessary. However, adding it doesn't harm and prevents
+        # from weakening the app in case of an OBJC / C lib
+        # or code is added
+        OTHER_CFLAGS: "$(inherited) -fstack-protector-all"
+        OTHER_CPLUSPLUSFLAGS: "$(inherited) -fstack-protector-all"
+      configs:
+        Debug:
+          CODE_SIGN_ENTITLEMENTS: App/Resources/Entitlements/Development.entitlements
+          CODE_SIGN_IDENTITY: iPhone Developer
+          DEVELOPMENT_TEAM: NFBYJRA8B5
+          PROVISIONING_PROFILE_SPECIFIER: ImmuniBSDevProfile
+        Release:
+          CODE_SIGN_ENTITLEMENTS: App/Resources/Entitlements/Production.entitlements
+          CODE_SIGN_IDENTITY: iPhone Distribution
+          DEVELOPMENT_TEAM: NFBYJRA8B5
+          PROVISIONING_PROFILE_SPECIFIER: ImmuniCIProdProfile
+
+    info:
+      path: Immuni.plist
+      properties:
+        BGTaskSchedulerPermittedIdentifiers:
+          [$(PRODUCT_BUNDLE_IDENTIFIER).exposure-notification]
+        CFBundleName: Immuni
+        CFBundleDisplayName: Immuni
+        CFBundleIcons: {}
+        CFBundleShortVersionString: "2.5.10"
+        CFBundleVersion: "${BUNDLE_VERSION}"
+        ENAPIVersion: 1
+        ENDeveloperRegion: IT
+        IMAppstoreID: "${APPSTORE_ID}"
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationQueriesSchemes: ["googlegmail"]
+        LSRequiresIPhoneOS: true
+        UIAppFonts:
+          [
+            EuclidCircularB-Bold.otf,
+            EuclidCircularB-Medium.otf,
+            EuclidCircularB-Semibold.otf,
+            SourceCodePro-Bold.ttf,
+          ]
+        UIBackgroundModes: [processing]
+        UILaunchStoryboardName: LaunchScreen
+        UIRequiredDeviceCapabilities: [armv7, bluetooth-le, telephony]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UI_TEST_DIR: $(SOURCE_ROOT)/UITests/Screenshots
+        UIViewControllerBasedStatusBarAppearance: YES
+
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - name: Immuni Tests
+          parallelizable: false
+          randomExecutionOrder: true
+
+        - name: Immuni UITests
+          parallelizable: false
+          randomExecutionOrder: true
+
+  Immuni Tests:
+    platform: iOS
+    type: bundle.unit-test
+    deploymentTarget: "13.0"
+    sources:
+      - AppTests
+    dependencies:
+      - target: Immuni
+    settings:
+      base:
+        SWIFT_VERSION: 5.2
+
+  Immuni UITests:
+    platform: iOS
+    type: bundle.unit-test
+    deploymentTarget: "13.0"
+    sources:
+      - path: UITests
+        excludes:
+          - "**/*.py"
+          - "**/*.png"
+    dependencies:
+      - target: Immuni
+    settings:
+      base:
+        SWIFT_VERSION: 5.2
+
+  # Modules
+  Extensions:
+    templates:
+      - Module
+
+  ImmuniExposureNotification:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions
+      - target: Models
+
+  Models:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions
+
+  Networking:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions
+      - target: Models
+      - target: ImmuniExposureNotification
+      - package: SwiftDGC
+
+  Persistence:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions
+
+  PushNotification:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions
+
+  StorePersistence:
+    templates:
+      - Module
+    dependencies:
+      - target: Extensions

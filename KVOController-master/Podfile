@@ -2,5 +2,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 project 'FBKVOController.xcodeproj'
 
 target :FBKVOControllerTests do
-  pod 'OCMockito', '~> 1.0'
+  pod 'OCMockito', '2.4.0'
 end
